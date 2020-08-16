@@ -120,9 +120,10 @@
             color: white;
             font-size: 30px;
         }
-        #article{
+        #article {
             display: flex;
             background-color: rgb(235, 110, 37);
+            width: 100%;
             height: 130px;
             margin-top: 10px;
             margin-left: 1%;
@@ -131,6 +132,15 @@
             text-align: center;
             color: white;
             font-size: 30px;
+        }
+        #article1 img{
+            width: 100%;
+            height: 130px
+        }
+        #article img{
+            
+            width: 100%;
+            height: 130px
         }
         .box1{
             width: 22%;
@@ -144,6 +154,42 @@
             display: flex;
             flex-direction: row;
         }
+        .box{
+        width: 20%;
+        margin: 20px 15px;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 5px 5px rgba(8, 8, 8, 0.2);
+        float: left;
+    }
+    
+    img{
+        width: 100%;
+        height: 176.547px;
+    }
+    .box p {
+            text-align: justify;
+            margin: 0px 10px;
+            line-height: 25px;
+        }
+    .box a {
+            display: block;
+            margin-top: 15px;
+            border-radius: 7px;
+            width: 100%;
+            background-color: red;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            padding: 10px 0px;
+        }
+    .box a:hover{
+        background-color: blue;
+    }
+    h4{
+        text-align: center;
+    }
 
     </style>
 </head>
@@ -166,21 +212,58 @@
     <div class="section1"><img src="../img/practical8-team2.png" alt="Member-2"></div> 
     <div class="section1"><img src="../img/practical8-team1.png" alt="Member-3"></div> 
     <div class="section1"><img src="../img/practical8-team4.png" alt="Member-4"></div> 
-    <h1 class="heading">Section-2</h1>  
-    <div id="mainContent">Main Content</div>
+    <a name="about"></a>
+    <h1 class="heading">About Us</h1>  
+    <div id="mainContent">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Porro optio alias reprehenderit modi harum error distinctio temporibus atque earum sit, 
+         provident voluptatem natus exercitationem amet quia cumque quae quaerat voluptas quo vitae quidem? 
+         Eos amet iste modi provident 
+        minima incidunt quis deserunt enim excepturi unde voluptatum sint iure, laboriosam saepe?</div>
     <div id=ar>
-    <div id="article1">Article-1</div>
-    <div id="article">Article-2</div>
-    <div id="article">Article-3</div>
+    <div id="article1"><img src="../img/practical8-team.jpg" alt=""></div>
+    <div id="article"><img src="../img/practical8-pic2.jpeg" alt=""></div>
+    <div id="article"><img src="../img/practical8-pic3.jpg" alt=""></div>
     </div>
-    <h1 class="heading">Section-3</h1>
+    <a name="technologies"></a>
+    <h1 class="heading">Technologies Used</h1>
     <div class="boxes">
-    <div class="box1"></div>
-    <div class="box1"></div>
-    <div class="box1"></div>
-    <div class="box1"></div></div>
-    <h1 class="heading">Section-4</h1>
-    <div id="footer">Footer</div>
+        <div class="box">
+            <img src="../img/practical5-html.png" alt="">
+            <h4>Introduction to HTML</h4>
+            <p>HTML stands for Hyper Text Markup Language. HTML is the combination of Hypertext and Markup language.
+            Markup language is used to define the text document within tag which defines the structure of web pages. 
+            This language is used to annotate text so that a machine can understand it
+            </p>
+            <a href="practical5-html.html" target="_blank">Read More</a>
+        </div>
+        <div class="box">
+            <img src="../img/practical5-css.jpg" alt="">
+            <h4>Introduction to CSS</h4>
+            <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making page presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page.</p>
+            <a href="practical5-css.html" target="_blank">Read More</a>
+        </div>
+        <div class="box">
+            <img src="../img/practical5-js.png" alt="">
+            <h4>Introduction to JS</h4>
+            <p>JavaScript is a lightweight, cross-platform and interpreted scripting language.
+                It is well-known for the development of web pages, many non-browser environments also use it.
+             JavaScript can be used for Client-side developments as well as Server-side developments. It contains a lot of useful libraries</p>
+            <a href="practical5-js.html" target="_blank">Read More</a>
+        </div>
+        <div class="box">
+            <img src="../img/practical5-bootstrap.jpg
+            " alt="">
+            <h4>Introduction to bootstrap</h4>
+            <p>bootstrap is a free and open-source tool collection for 
+                creating responsive websites and web applications.
+                 It is the most popular HTML, CSS, and JavaScript framework for developing responsive,
+                 It solves many problems which we had once, one of which is the cross-browser problem.</p>
+            <a href="practical5-bootstrap.html" target="_blank">Read More</a>
+        </div>
+        </div>
+        <a name="contact">
+    <h1 class="heading">Contact</h1></a>
+    <div id="footer"><h3>Website Template for Practical-8 &copy; <a href="https://www.linkedin.com/in/rohanbhardwaj09/"</div>
     </div>
     
 </body>
