@@ -1,0 +1,98 @@
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            min-width: 100%;
+            background-color:rgb(196, 196, 196);
+        }
+
+        .wrapper {
+            width: 600px;
+            background-color: #fff;
+            padding: 10px;
+            margin: 20px auto;
+        }
+
+        .custom-table {
+            width: 100%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .basic {    
+            background-color: #e3f8dc;
+        }
+
+        .plus {
+            background-color: #a1cfbb;
+        }
+
+        .deluxe {
+            background-color: #d9eff7;
+        }
+
+        .pro {
+            background-color: #dff0c5;
+        }
+
+        th i {
+            color: #64548f;
+            font-size: 28px;
+            margin-right: 10px;
+        }
+
+        td img {
+            width: 18px;
+            height: 18px;
+        }
+
+        th {
+            font-size: 28px;
+            height: 70px;
+        }
+
+        .custom-table td, .custom-table th {
+            width: 180px;
+            padding: 8px 5px;
+            text-align: center;
+            border-left: 2px solid white;
+            border-right: 2px solid white;
+        }
+
+        tbody tr:nth-child(odd), tfoot tr:nth-child(odd) {
+            background-color: #f2f8e7;
+        }
+
+        tbody tr:first-child td {
+            color: rgb(14, 230, 96);
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        tfoot tr {
+            line-height: 70px;
+        }
+
+        tfoot a {
+            text-decoration: none;
+            font-weight: bolder;
+            background-color: #64548f;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            background-color:red;
+        }
+
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+        }
