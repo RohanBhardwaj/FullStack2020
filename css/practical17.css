@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#time{
+    font-size: 8rem;
+}
+h1,h2{
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 3rem;
+}
+#name{
+    color: rgb(107, 107, 107);
+}
