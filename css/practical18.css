@@ -56,7 +56,7 @@ input{
 }
 
 .form-control small {
-    position: absolute;
+   
     visibility: hidden;
     margin-top: 3px;
     left: 0;
