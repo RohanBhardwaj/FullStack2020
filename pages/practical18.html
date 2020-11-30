@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/practical18.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email-ID</label>
+                <input type="text" id="email" placeholder="Enter Email-ID">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="text" id="password" placeholder="Enter password">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Confirm password</label>
+                <input type="text" id="password2" placeholder="Enter password again">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="../js/practical18.js"></script>
+</body>
+</html>
